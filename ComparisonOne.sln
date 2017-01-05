@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0FBD603C-18EF-4CB6-812C-4FBE7B8CA3AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30EBBB65-1A12-476E-9E07-E3C9587BBF35}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ComparisonOne", "src\ComparisonOne\ComparisonOne.xproj", "{7CCD7203-CB03-4AE8-B6DA-5356CD469B14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CCD7203-CB03-4AE8-B6DA-5356CD469B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CCD7203-CB03-4AE8-B6DA-5356CD469B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CCD7203-CB03-4AE8-B6DA-5356CD469B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CCD7203-CB03-4AE8-B6DA-5356CD469B14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7CCD7203-CB03-4AE8-B6DA-5356CD469B14} = {0FBD603C-18EF-4CB6-812C-4FBE7B8CA3AD}
+	EndGlobalSection
+EndGlobal
