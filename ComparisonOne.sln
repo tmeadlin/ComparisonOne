@@ -12,6 +12,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ComparisonOne", "src\ComparisonOne\ComparisonOne.xproj", "{7CCD7203-CB03-4AE8-B6DA-5356CD469B14}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{404BED37-EAD4-4790-A484-C5EBDE82EC64}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Core", "src\Core\Core.xproj", "{AA85073A-9F4C-4234-8381-6CA3A2806641}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ProductServices", "src\Services\ProductServices\ProductServices.xproj", "{062FC033-622A-4266-919E-7069236A8174}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +28,22 @@ Global
 		{7CCD7203-CB03-4AE8-B6DA-5356CD469B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CCD7203-CB03-4AE8-B6DA-5356CD469B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CCD7203-CB03-4AE8-B6DA-5356CD469B14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA85073A-9F4C-4234-8381-6CA3A2806641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA85073A-9F4C-4234-8381-6CA3A2806641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA85073A-9F4C-4234-8381-6CA3A2806641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA85073A-9F4C-4234-8381-6CA3A2806641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{062FC033-622A-4266-919E-7069236A8174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062FC033-622A-4266-919E-7069236A8174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062FC033-622A-4266-919E-7069236A8174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062FC033-622A-4266-919E-7069236A8174}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7CCD7203-CB03-4AE8-B6DA-5356CD469B14} = {0FBD603C-18EF-4CB6-812C-4FBE7B8CA3AD}
+		{404BED37-EAD4-4790-A484-C5EBDE82EC64} = {0FBD603C-18EF-4CB6-812C-4FBE7B8CA3AD}
+		{AA85073A-9F4C-4234-8381-6CA3A2806641} = {0FBD603C-18EF-4CB6-812C-4FBE7B8CA3AD}
+		{062FC033-622A-4266-919E-7069236A8174} = {404BED37-EAD4-4790-A484-C5EBDE82EC64}
 	EndGlobalSection
 EndGlobal

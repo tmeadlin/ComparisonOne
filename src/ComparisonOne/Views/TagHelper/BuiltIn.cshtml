@@ -1,0 +1,49 @@
+﻿@model ComparisonOne.Models.TagHelperBuiltInModel
+
+@{
+    ViewData["Title"] = "Built-Ins";
+}
+
+<h3>.Net Built-In TagHelpers</h3>
+
+<form asp-controller="TagHelper" asp-action="SubmitForm" method="post">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label asp-for="WidgetName" class="control-label col-md-2"></label>
+                <div class="col-md-10">
+                    <input asp-for="WidgetName" class="form-control"/>
+                </div>
+            </div>
+        </div>
+    </div>  
+    
+    <div class="row">
+        <div class="col-md-12">
+            <label asp-for="WidgetType" class="control-label col-md-2"></label>
+            <div class="col-md-10">
+                <select asp-for="WidgetType" asp-items="Model.WidgetTypes" class="form-control"></select>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-12">
+            <button type="submit">Submit</button>
+        </div>
+    </div>   
+    
+    <div class="row">
+        <div class="col-md-12">
+            <a asp-controller="ViewComponent" asp-action="QuickAndDirty">Go To ViewComponents</a>
+        </div>
+    </div>  
+    
+    <environment Names="Development">
+        <p>Will be displayed for Development</p>
+    </environment> 
+    
+    <environment Names="Staging,Production">
+        <p>Will be displayed for Staging and Production</p>
+    </environment>
+</form>

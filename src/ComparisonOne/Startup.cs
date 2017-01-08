@@ -29,6 +29,13 @@ namespace ComparisonOne
         {
             // Add framework services.
             services.AddMvc();
+
+            //Add DI (Using .Net Core DI for this)
+            //Managers
+            //ComparisonOne.IoC.Bindings.Bind(services);
+
+            //Product Services
+            ComparisonOne.Services.ProductServices.IoC.Bindings.Bind(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,7 +60,7 @@ namespace ComparisonOne
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=TagHelper}/{action=BuiltIn}/{id?}");
             });
         }
     }
